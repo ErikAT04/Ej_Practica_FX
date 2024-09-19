@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="124.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erikat.ej_repaso_fx.Search">
+   <children>
+      <Label layoutX="58.0" layoutY="24.0" text="Escriba el correo del usuario:" />
+      <TextField fx:id="idTField" layoutX="60.0" layoutY="50.0" />
+      <Button layoutX="157.0" layoutY="85.0" mnemonicParsing="false" onAction="#onExitBttClick" prefHeight="25.0" prefWidth="87.0" text="Salir" />
+      <Button layoutX="22.0" layoutY="85.0" mnemonicParsing="false" onAction="#onSearchBttClick" prefHeight="25.0" prefWidth="87.0" text="Buscar" />
+   </children>
+</AnchorPane>

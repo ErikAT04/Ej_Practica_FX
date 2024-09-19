@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erikat.ej_repaso_fx.MainController">
+  <children>
+      <TextField fx:id="userTField" layoutX="151.0" layoutY="87.0" />
+      <PasswordField fx:id="passTField" layoutX="151.0" layoutY="132.0" />
+      <TextField fx:id="discountTField" layoutX="149.0" layoutY="181.0" prefHeight="25.0" prefWidth="75.0" />
+      <Label layoutX="80.0" layoutY="87.0" text="Usuario:" textFill="#c90000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="132.0" text="Contraseña:" textFill="#c90000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="181.0" text="Descuento:" textFill="#c90000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="392.0" layoutY="67.0" mnemonicParsing="false" onAction="#onAddBttClick" prefHeight="39.0" prefWidth="91.0" text="Añadir" />
+      <Button layoutX="392.0" layoutY="118.0" mnemonicParsing="false" onAction="#onCleanBttClick" prefHeight="39.0" prefWidth="91.0" text="Limpiar" />
+      <Button layoutX="392.0" layoutY="167.0" mnemonicParsing="false" onAction="#onSearchBttClick" prefHeight="39.0" prefWidth="91.0" text="Buscar" />
+      <Button layoutX="392.0" layoutY="219.0" mnemonicParsing="false" onAction="#onIncomeBttClick" prefHeight="39.0" prefWidth="91.0" text="Ingresos" />
+      <Button layoutX="392.0" layoutY="269.0" mnemonicParsing="false" onAction="#onExitBttClick" prefHeight="39.0" prefWidth="91.0" text="Salir" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="360.0" layoutX="12.0" layoutY="20.0" stroke="BLACK" strokeType="INSIDE" width="517.0" />
+      <Label layoutX="26.0" layoutY="10.0" style="-fx-background-color: #F4F4F4;" text="Usuarios" textFill="#0043fc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="114.0" layoutX="98.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+      <Label layoutX="113.0" layoutY="236.0" style="-fx-background-color: #F4F4F4;" text="Premium" textFill="#0043fc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="136.0" layoutY="282.0" mnemonicParsing="false" text="Si">
+         <toggleGroup>
+            <ToggleGroup fx:id="premiumTGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="135.0" layoutY="307.0" mnemonicParsing="false" text="No" toggleGroup="$premiumTGroup" />
+
+   </children>
+</AnchorPane>
