@@ -3,14 +3,11 @@ package com.erikat.ej_repaso_fx;
 import com.erikat.ej_repaso_fx.obj.CRUDCliente;
 import com.erikat.ej_repaso_fx.obj.Usuario;
 import javafx.event.ActionEvent;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.ResourceBundle;
 
 public class Search {
 

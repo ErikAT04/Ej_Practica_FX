@@ -1,7 +1,5 @@
 package com.erikat.ej_repaso_fx.obj;
 
-import javafx.scene.control.Alert;
-
 import java.util.ArrayList;
 
 public class CRUDCliente {

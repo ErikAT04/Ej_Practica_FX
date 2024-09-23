@@ -3,7 +3,6 @@ package com.erikat.ej_repaso_fx;
 import com.erikat.ej_repaso_fx.obj.CRUDCliente;
 import com.erikat.ej_repaso_fx.obj.Usuario;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
