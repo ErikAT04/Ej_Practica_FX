@@ -34,4 +34,12 @@ public abstract class Cliente {
     public void setDiscount(double discount) {
         this.discount = discount;
     }
+
+    @Override
+    public String toString() {
+        String nombreClase = this.getClass().getName(); //Saco el nombre de la clase.
+        return  nombreClase + "con correo " + this.id + "\n" +
+                "Contraseña: " + this.passwd + "\n" +
+                "Descuento: " + this.discount + "\n";
+    }
 }

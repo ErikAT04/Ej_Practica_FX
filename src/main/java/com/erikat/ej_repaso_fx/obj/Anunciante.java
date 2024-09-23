@@ -15,4 +15,9 @@ public class Anunciante extends Cliente {
     public void setNumAds(int numAds) {
         this.numAds = numAds;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Anunciante con " + this.numAds + " anuncios publicados.";
+    }
 }
